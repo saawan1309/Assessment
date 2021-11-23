@@ -12,8 +12,8 @@ class calculator():
         return self.a/self.b
 
 while True:
-    a = int(input("Enter First Digit :"))
-    b = int(input("Enter Second Digit :"))
+    a = float(input("Enter First Digit :"))             #I am using float because we don't have double in python
+    b = float(input("Enter Second Digit :"))
     c = input("Select Operation (+,-,*,/) :")
     cal = calculator(a,b)
     if c == "+":
